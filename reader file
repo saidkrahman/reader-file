@@ -1,0 +1,344 @@
+<!-- All Univerity of Nebraska-Lincoln Web Framework code is the property of UComm/ITS Digital Experience Group 
+and the UNL Web Developer Network. -->
+
+<!-- place the contents of this css file, in the <head></head> of your html page when using 
+the responsive table generator code on sites not in UNLcms or the UNL.edu framework -->
+
+<style>
+
+
+:root {
+    --bg-table-stripe: #f6f6f5;
+    --b-table: #e3e3e2;
+    --caption: #242423;
+}
+
+table {
+    background-color: transparent;
+    border-collapse:collapse;
+  	font-family: Arial, Helvetica, sans-serif
+}
+
+th {
+    text-align:left
+}
+
+.dcf-txt-center {
+      text-align: center!important
+    }
+
+    .dcf-txt-left {
+      text-align: left!important
+    }
+
+    .dcf-txt-right {
+      text-align: right!important
+    }
+    
+.dcf-table caption {
+      color: var(--caption);
+      font-size: 1.13em;
+      font-weight: 700;
+      padding-bottom: .56rem
+    }
+
+    .dcf-table thead {
+      font-size: .84em
+    }
+
+    .dcf-table tbody {
+      border-bottom: 1px solid var(--b-table);
+      border-top: 1px solid var(--b-table);
+      font-size: .84em
+    }
+
+    .dcf-table tfoot {
+      font-size: .84em
+    }
+
+    .dcf-table td, .dcf-table th {
+      padding-right: 1.78em
+    }
+
+    .dcf-table-bordered, .dcf-table-bordered td, .dcf-table-bordered th {
+      border: 1px solid var(--b-table)
+    }
+
+    .dcf-table-bordered td, .dcf-table-bordered th, .dcf-table-striped td, .dcf-table-striped th {
+      padding-left: 1em;
+      padding-right: 1em
+    }
+
+    .dcf-table-bordered tr:not(:last-child), .dcf-table-striped tr:not(:last-child) {
+      border-bottom: 1px solid var(--b-table)
+    }
+
+    .dcf-table-striped tbody tr:nth-of-type(2n) {
+      background-color: var(--bg-table-stripe)
+    }
+
+    .dcf-table thead td, .dcf-table thead th {
+      padding-bottom: .75em;
+      vertical-align: bottom
+    }
+
+    .dcf-table tbody td, .dcf-table tbody th, .dcf-table tfoot td, .dcf-table tfoot th {
+      padding-top: .75em;
+      vertical-align: top
+    }
+
+    .dcf-table tbody td, .dcf-table tbody th {
+      padding-bottom: .75em
+    }
+
+    .dcf-table-bordered thead th {
+      padding-top: 1.33em
+    }
+
+    .dcf-wrapper-table-scroll {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      left: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+      padding-bottom: 1em;
+      position: relative;
+      right: 50%;
+      width: 100vw
+    }
+
+    @media only screen and (max-width:42.09em) {
+      .dcf-table-responsive thead {
+        clip: rect(0 0 0 0);
+        -webkit-clip-path: inset(50%);
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        width: 1px;
+        white-space: nowrap
+      }
+      .dcf-table-responsive tr {
+        display: block
+      }
+      .dcf-table-responsive td {
+        -webkit-column-gap: 3.16vw;
+        -moz-column-gap: 3.16vw;
+        column-gap: 3.16vw;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        text-align: left!important
+      }
+      .dcf-table-responsive.dcf-table-bordered, .dcf-table-responsive.dcf-table-bordered thead th {
+        border-width: 0
+      }
+      .dcf-table-responsive.dcf-table-bordered tbody td {
+        border-top-width: 0
+      }
+      .dcf-table-responsive:not(.dcf-table-bordered) tbody tr {
+        padding-bottom: .75em
+      }
+      .dcf-table-responsive:not(.dcf-table-bordered) tbody td {
+        padding-bottom: 0
+      }
+      .dcf-table-responsive:not(.dcf-table-bordered):not(.dcf-table-striped) tbody td {
+        padding-right: 0
+      }
+      .dcf-table-responsive.dcf-table-bordered tbody tr:last-child td:last-child {
+        border-bottom-width: 0
+      }
+      .dcf-table-responsive tbody td:before {
+        content: attr(data-label);
+        float: left;
+        font-weight: 700;
+        padding-right: 1.78em
+      }
+    }
+
+.dcf-overflow-x-auto {
+      overflow-x: auto!important;
+      -webkit-overflow-scrolling: touch
+    }
+    
+.dcf-w-100\% {
+  width: 100%!important;
+		}
+
+
+        body {
+            font-family: "Lato", sans-serif;
+          }
+          
+          
+          /* Style the sidenav links and the dropdown button */
+          .sidenav a, .dropdown-btn {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            display: block;
+            border: none;
+            background: none;
+            width: 100%;
+            text-align: left;
+            cursor: pointer;
+            outline: none;
+          }
+          
+         
+          
+          /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+          .dropdown-container {
+            display: none;
+            background-color: #f44336;
+            padding-left: 8px;
+          }
+          
+          /* Optional: Style the caret down icon */
+          .fa-caret-down {
+            float: right;
+            padding-right: 8px;
+          }
+
+
+
+
+
+
+
+
+          .GeneratedMarquee {
+            font-family:'Comic Sans MS';
+            font-size:2em;
+            line-height:1.3em;
+            color:#ffffff;
+            background-color:#FF0000;
+            padding:em;
+            
+            }
+
+
+
+
+
+
+
+            footer {
+                background: #f44336;
+                background: -webkit-linear-gradient(59deg, #f44336, #f44336);
+                background: linear-gradient(59deg, #f44336, #f44336);
+                color: white;
+                margin-top:100px;
+              }
+              
+              footer a {
+                color: #fff;
+                font-size: 14px;
+                transition-duration: 0.2s;
+              }
+              
+              footer a:hover {
+                color: #FA944B;
+                text-decoration: none;
+              }
+              
+              .copy {
+                font-size: 12px;
+                padding: 10px;
+                border-top: 1px solid #FFFFFF;
+              }
+              
+              .footer-middle {
+                padding-top: 2em;
+                color: white;
+              }
+              
+              
+              /*SOCİAL İCONS*/
+              
+              /* footer social icons */
+              
+              ul.social-network {
+                list-style: none;
+                display: inline;
+                margin-left: 0 !important;
+                padding: 0;
+              }
+              
+              ul.social-network li {
+                display: inline;
+                margin: 0 5px;
+              }
+              
+              
+              /* footer social icons */
+              
+              .social-network a.icoFacebook:hover {
+                background-color: #3B5998;
+              }
+              
+              .social-network a.icoLinkedin:hover {
+                background-color: #007bb7;
+              }
+              
+              .social-network a.icoFacebook:hover i,
+              .social-network a.icoLinkedin:hover i {
+                color: #fff;
+              }
+              
+              .social-network a.socialIcon:hover,
+              .socialHoverClass {
+                color: #44BCDD;
+              }
+              
+              .social-circle li a {
+                display: inline-block;
+                position: relative;
+                margin: 0 auto 0 auto;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                border-radius: 50%;
+                text-align: center;
+                width: 30px;
+                height: 30px;
+                font-size: 15px;
+              }
+              
+              .social-circle li i {
+                margin: 0;
+                line-height: 30px;
+                text-align: center;
+              }
+              
+              .social-circle li a:hover i,
+              .triggeredHover {
+                -moz-transform: rotate(360deg);
+                -webkit-transform: rotate(360deg);
+                -ms--transform: rotate(360deg);
+                transform: rotate(360deg);
+                -webkit-transition: all 0.2s;
+                -moz-transition: all 0.2s;
+                -o-transition: all 0.2s;
+                -ms-transition: all 0.2s;
+                transition: all 0.2s;
+              }
+              
+              .social-circle i {
+                color: #595959;
+                -webkit-transition: all 0.8s;
+                -moz-transition: all 0.8s;
+                -o-transition: all 0.8s;
+                -ms-transition: all 0.8s;
+                transition: all 0.8s;
+              }
+              
+              .social-network a {
+                background-color: #F9F9F9;
+              }
+
+
+
+
+
+    
+</style>
